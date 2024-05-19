@@ -10,6 +10,5 @@ namespace Demo.Core.Api.Brokers.Storage
 {
     public partial interface IStorageBroker
     {
-
     }
 }
