@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Brokers\Storage\IStorageBroker.User.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EFxceptions" Version="0.4.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.5">
       <PrivateAssets>all</PrivateAssets>
@@ -21,6 +25,11 @@
 
   <ItemGroup>
     <Folder Include="Service\Foundation\Users\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Brokers\Storage\IStorageBroker.User.cs" />
+    <None Include="Brokers\Storage\StorageBroker.User.cs" />
   </ItemGroup>
 
 </Project>
