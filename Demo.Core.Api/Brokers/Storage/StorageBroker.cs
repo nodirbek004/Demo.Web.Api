@@ -1,4 +1,9 @@
-﻿using EFxceptions;
+﻿// -------------------------------------------------------
+// Copyright (c) Coalition of the Good-Hearted Engineers
+// FREE TO USE FOR THE WORLD
+// -------------------------------------------------------
+
+using EFxceptions;
 using Microsoft.EntityFrameworkCore;
 
 namespace Demo.Core.Api.Brokers.Storage
